@@ -1,0 +1,382 @@
+* {
+    box-sizing: border-box;
+}
+body {
+        margin-top:0px;
+        margin-bottom: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        padding: 0%;
+        font-family: 'Montserrat', sans-serif;
+
+}
+/* header main parent */
+.Header{
+    width:100%;
+    margin-top: 2px;
+}
+/*  when the viewport is 600px or smaller */
+@media screen and (min-width: 600px) {
+  .Header {
+    width:100%;
+    margin-top: 2px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .Header {
+   width:100%;
+   padding: 5px;
+   background-color: black;
+  }
+}
+/* header grand parent */
+.HeaderCounter{
+    width:93%;
+    margin-left:6%;
+    display:flex;
+}
+/* when the viewport is 600px or smaller */
+@media screen and (min-width: 600px) {
+ .HeaderCounter {
+   width:93%;
+    margin-left:6%;
+    display:flex;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .HeaderCounter {
+   width:100%;
+   margin-left:0px;
+   background-color: black;
+  }
+}
+/* header have two parent so this is first Parent */
+.HeaderMenuFirst{
+    width: 45%;
+    padding:10px;
+    background-color:#000000;
+    text-align:left;
+    float:left;
+}
+/*when the viewport is 600px or smaller */
+@media screen and (min-width: 600px) {
+  .HeaderMenuFirst {
+    width: 45%;
+    padding:10px;
+    background-color:#000000;
+    text-align:left;
+    float:left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .HeaderMenuFirst {
+        display:none;
+  }
+}
+/* Start Second Parent */
+.HeaderMenuSecond{
+    width: 55%;
+    padding:10px;
+    background-color:#000000;
+    float: right;
+    text-align:left;
+}
+/*  when the viewport is 600px or smaller */
+@media screen and (min-width: 600px) {
+  .HeaderMenuSecond {
+    width: 55%;
+    padding:10px;
+    background-color:#000000;
+    float: right;
+    text-align:left;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .HeaderMenuSecond {
+        display:none;
+  }
+}
+/* Parent first have five child so this is child list */
+.HeaderMenuItemLeft{
+    padding: 3px;
+    display: inline;
+}
+/* when the viewport is 600px or smaller */
+@media screen and (max-width:600px) {
+   .HeaderMenuItemLeft{
+        display:block;
+    }
+}
+.HeaderMenuItemLeft a{
+    text-decoration: none;
+    color:#ffffff;
+   font-size:1.15vw;
+}
+/* Parent Second have Six child so this is child list */
+.HeaderMenuItemRight{
+    padding: 3px;
+    display: inline;
+}
+/* when the viewport is 600px or smaller */
+@media screen and (max-width:600px) {
+   .HeaderMenuItemRight{
+        display:block;
+    }
+}
+.HeaderMenuItemRight a{
+         text-decoration: none;
+         color:#ffffff;
+        font-size:1.15vw;
+}
+/*when the viewport is 600px or smaller */
+@media screen and (max-width:600px) {
+   .HeaderMenuItemRight a,.HeaderMenuItemLeft a{
+        font-size:3vw;
+    }
+}
+.TableWithFirstImg{
+    float:left;
+}
+@media screen and (min-width: 600px) {
+ .TableWithFirstImg {
+     float:left; 
+     width:8%;
+     margin-top:20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .TableWithFirstImg {
+     margin-left:50%;
+     width:8%;
+  }
+}
+.TableCount{
+    padding:30px;
+    margin-left:200px;
+    width:90%;
+}
+@media screen and (min-width: 600px) {
+  .TableCount {
+    padding:30px;
+    margin-left:200px;
+    width:91%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .TableCount {
+    padding:1px;
+    margin-left:0;
+  }
+}
+
+.TableOne{
+    float:left;
+    padding:10px;
+     width:88%;
+}
+@media screen and (min-width: 600px) {
+ .TableOne {
+    padding:10px;
+    float:left;
+    width:88%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .TableOne {
+    padding:20px;
+    width:100%;
+  }
+}
+table, td, th {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+@media screen and (min-width: 600px) {
+  table {
+    border-collapse: collapse;
+  width: 100%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   table {
+    border-collapse: collapse;
+
+  }
+}
+th{
+     text-align:left;
+     padding:5px;
+     font-size:20px;
+}
+@media screen and (min-width: 600px) {
+  th {
+    text-align:left;
+     padding:5px;
+     font-size:20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   th {
+    text-align:left;
+     padding:2px;
+     font-size:8px;
+  }
+}
+
+td {
+  height: 40px;
+}
+@media screen and (min-width: 600px) {
+  td {
+  height:40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   td {
+    height:10px;
+  }
+}
+.Graph{
+    border-bottom: hidden;
+    border-right: hidden;
+    padding:10px;
+    font-size:20px;
+}
+@media screen and (min-width: 600px) {
+ .Graph {
+    border-bottom: hidden;
+    border-right: hidden;
+    padding:10px;
+    font-size:20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .Graph {
+    border-bottom: hidden;
+    border-right: hidden;
+    padding:2px;
+    font-size:8px;
+  }
+
+}
+.GraphDetail{
+    border-left: hidden;
+    padding:25px;
+    font-size:20px;
+    border-right: hidden;
+}
+@media screen and (min-width: 600px) {
+.GraphDetail {
+    border-left: hidden;
+    padding:25px;
+    font-size:20px;
+    border-right: hidden;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .GraphDetail {
+    border-left: hidden;
+    padding:2px;
+    font-size:8px;
+    border-right: hidden;
+  }
+}
+.Dial{
+     padding:5px;
+    font-size:20px;
+    border-right: hidden;
+}
+@media screen and (min-width: 600px) {
+.Dial {
+    padding:5px;
+    font-size:20px;
+    border-right: hidden;
+  }
+}
+
+@media screen and (max-width: 600px) {
+ .Dial {
+    padding:1px;
+    font-size:8px;
+    border-right: hidden;
+  }
+}
+.Graph_Blank{
+    border-bottom: hidden;
+    padding:5px;
+}
+@media screen and (min-width: 600px) {
+  .Graph_Blank {
+  border-bottom: hidden;
+    padding:5px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .Graph_Blank {
+    border-bottom: hidden;
+    padding:1px;
+  }
+}
+.MenuDropBottom{
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.MenuDropDown{
+  position: relative;
+  display: inline-block;
+}
+
+.MenuDropDown-Content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.MenuDropDown-Content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.MenuDropDown-Content a:hover {background-color: #ddd;}
+
+.MenuDropDown:hover .MenuDropDown-Content {display: block;}
+
+.MenuDropDown:hover .MenuDropBottom {background-color: #3e8e41;}
+
+@media screen and (min-width: 600px) {
+  .MenuDropDown {
+    display:none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+   .MenuDropDown {
+    position: relative;
+  display: inline-block;
+  }
+}
+
